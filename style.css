@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    background-color: #0084ff;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 226, 226);
+}
+.btn{
+    color: rgb(226, 226, 226);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 104px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: #0084ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(134, 132, 132);
+    font-size: 25px;
+}
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.10s;
+}
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #8e9f9f;
+    background-color: #1c2121;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 104px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: #0084ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.dropdown{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    background: #1b1b1b;
+    width: 400px;
+    line-height: 40px;
+    padding: 8px 25px;
+}
+.dropdown label{
+    color: white;
+    font-size: 22px;
+    display: block;
+    cursor: pointer;
+}
+.btun{
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.10s;
+}
+.credit{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #8e9f9f;
+    background-color: #1c2121;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    border: 5px solid #171717;
+    box-shadow: inset 0 0 15px #171717;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#eecda3,#ef629f);
+    border-radius: 25px;
+}
